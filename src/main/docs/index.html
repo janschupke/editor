@@ -1,0 +1,123 @@
+<html>
+<head>
+	<title>Editor Documentation</title>
+	
+<style>
+
+html, body {
+	margin:0px;
+	padding:0px;
+	font-size:12px;
+	width:600px;
+}
+
+table {
+	font-size:100%;
+	border:1px solid #000000;
+	border-collapse:collapse;
+}
+
+table td {
+	margin:0px;
+	padding:2px 7px;
+}
+
+body {
+	padding:20px;
+}
+
+h1 {
+	font-size:18px;
+}
+
+h2 {
+	font-size:16px;
+}
+
+h3 {
+	font-size:14px;
+}
+
+h4 {
+	font-size:12px;
+}
+
+dt {
+	font-weight:bold;
+}
+	
+</style>
+	
+</head>
+<body>
+<h1>Editor Documentation</h1>
+
+<h2>About</h2>
+<p>A plain text editor focused towards and optimized for handling source codes. It was created as a school project.</p>
+
+<h2>Features</h2>
+
+<dl>
+	<dt>File handling</dt>
+	<dd>Files are controlled either via main menu items or buttons located on one of two available toolbars. All buttons are situated in the top left side of the application window. You can perform basic actions, such as creating, opening or saving files.</dd>
+	
+	<dt>Menu</dt>
+	<dd>Menu consists of four sections, which are File, Edit, Properties and Help. Section File contains actions mentioned in filehandling, Edit allows you to further modify your document, Properties handle all available settings and Help provides additional information about the application.</dd>
+	
+	<dt>Back / forward</dt>
+	<dd>This feature allows you to recover recent changes to your document and also redo all changes that you've recovered. Limit of edits that you can walk through is set to 1500. The feature is accessible from both menu and toolbar.</dd>
+	
+	<dt>Search</dt>
+	<dd>Search utility allows you to scan current document and highlight the first set of characters that fits your search. Repetitive pushing of the search button will cause the application to iterate though the document, highlighting next convenient strings / words.</dd>
+	
+	<dt>Settings + config file</dt>
+	<dd>Settings are accessible via the Properties submenu, and allow you to modify various application parameters, such as automatic line wparring, language or window dimensions.</dd>
+	
+</dl>
+
+<h3>Hotkeys</h3>
+
+<table>
+<caption>Available hotkeys</caption>
+	<tr><td>Create new file</td>
+		<td>&lt;CTRL&gt; + N</td></tr>
+		
+	<tr><td>Open a file</td>
+		<td>&lt;CTRL&gt; + O</td></tr>
+		
+	<tr><td>Save the file</td>
+		<td>&lt;CTRL&gt; + S </td></tr>
+		
+	<tr><td>Save the file as</td>
+		<td>&lt;CTRL&gt; + &lt;SHIFT&gt; + S</td></tr>
+		
+	<tr><td>Save all files</td>
+		<td>&lt;CTRL&gt; + &lt;SHIFT&gt; + &lt;ALT&gt; + S</td></tr>
+		
+	<tr><td>Search the document</td>
+		<td>&lt;CTRL&gt; + F</td></tr>
+		
+	<tr><td>Undo</td>
+		<td>&lt;CTRL&gt; + Z</td></tr>
+		
+	<tr><td>Redo</td>
+		<td>&lt;CTRL&gt; + &lt;SHIFT&gt; + Z</td></tr>
+		
+	<tr><td>Close current tab</td>
+		<td>&lt;CTRL&gt; + Q</td></tr>
+</table>
+
+<!--
+<h2>Postponed Features</h2>
+<ul>
+  <li>Rulers - line and character count</li>
+  <li>Syntax highlighting</li>
+  <li>Automatic indent</li>
+  <li>Tab settings feature - no features to be used</li>
+  <li>Custom language file loader</li>
+  <li>Statusbar - line and word counter</li>
+</ul>
+-->
+
+</body>
+</html>
